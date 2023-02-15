@@ -1,0 +1,4 @@
+ID  
+sensorID: String
+tiltdata: INT
+phone IP: 192.168.

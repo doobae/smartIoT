@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=x_lHg54s9L4   LG전자 IoT 아키텍쳐
+
+https://www.youtube.com/watch?v=sWxiL-egmnc   AWS 서버리스를 이용하여 IoT 수준의 메세지 폭풍을 처리하는 방법 - 김민성 솔루션즈 아키텍트(AWS)
+
+https://www.youtube.com/watch?v=k199dgSoHxM     AWS Fargate를 사용한 서버리스 컨테이너 활용 하기 –삼성전자 개발자 포털 사례 - 정영준 솔루션즈 아키텍트(AWS), 유현성 수석, 김교탁 책임(
+
