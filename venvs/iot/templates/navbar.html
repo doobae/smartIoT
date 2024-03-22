@@ -1,0 +1,55 @@
+{% load static %}
+<nav
+  class="navbar navbar-expand-lg navbar-light bg-light border-bottom sticky-top"
+>
+  <a class="navbar-brand" href="#">
+    <img src="{% static '/images/iot.png'%}" width="32" />
+    IoT
+  </a>
+  <button
+    class="navbar-toggler ml-auto"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'iot:mqtt'%}">
+          <i class="fas fa-wifi"></i>
+          MQTT
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="fas fa-chart-bar"></i>
+          통계
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="fas fa-video"></i>
+          mjpeg
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'iot:list'%}">
+          <i class="fas fa-file-video"></i>
+          보안 카메라
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="far fa-comment-alt"></i>
+          카톡
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
